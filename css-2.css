@@ -14,7 +14,7 @@ header .nav-link:hover{
     position: absolute;
 }
 .card:hover{
-    transform: scale(0.9, 0.9);
+    transform: scale(0.95, 0.95);
 }
 .mt-0 {
     margin-top: 80px !important;
@@ -65,4 +65,9 @@ header .nav-link:hover{
     5px 5px 2px black,
     8px 8px 3px white;;
 }
+}
+
+label {
+    font-size: 15pt;
+    color: white;
 }
