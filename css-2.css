@@ -67,6 +67,18 @@ header .nav-link:hover{
 }
 }
 
+
+main div:nth-child(5){
+    width: 100%;
+}
+@media screen and (min-width: 1080px) {
+    main div:nth-child(5){
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+
 label {
     font-size: 15pt;
     color: white;
