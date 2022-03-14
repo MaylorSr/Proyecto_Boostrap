@@ -199,36 +199,104 @@
                 <div class="card-group">
                     <div class="card p-2 border border-5">
                         <div class="card-header">
-                            <h5 class="my-0 font-weight-normal">Principiante</h5>
+                            <h5 class="my-0 font-weight-normal text-center">Free</h5>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">10€<small class="text-muted">/mes</small></h1>
+                            <h1 class="card-title pricing-card-title text-center">0€<small
+                                    class="text-muted">/mes</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>1 día de clase a elegir</li>
-                                <li>Instrumentos disponibles: piano y guitarra</li>
-                                <li>2h de clase</li>
-                                <li>1 púa para guitarra gratis</li>
+                                <li>Clases: Lunes</li>
+                                <li>Instrumentos disponibles: Piano</li>
+                                <li>1h de clase</li>
+                                <li>Logo gratis al suscribirte</li><br>
                             </ul>
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
-                                Sing Up Free
+                                Comprar
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content p-3">
+                                        <form action="#" class="credit-card-div" method="post">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading">
+                                                    <div class="row ">
+                                                        <div>
+                                                            <input type="text" class="form-control"
+                                                                placeholder="Introduzca su número de tarjeta"
+                                                                required />
+                                                        </div>
+                                                    </div>
+                                                    <div class="row mt-2">
+                                                        <div class="col-md-3 col-sm-3 col-xs-3">
+                                                            <span
+                                                                class="help-block text-muted small-font">Mes/Vencimiento</span>
+                                                            <input type="text" class="form-control" placeholder="MM"
+                                                                required />
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-3 col-xs-3">
+                                                            <span class="help-block text-muted small-font">
+                                                                Año/Vencimiento</span>
+                                                            <input type="text" class="form-control" placeholder="YY"
+                                                                required />
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-3 col-xs-3">
+                                                            <span class="help-block text-muted small-font">CCV</span>
+                                                            <input type="text" class="form-control" placeholder="CCV"
+                                                                required />
+                                                        </div>
+                                                        <div class="col-md-3 col-sm-3 col-xs-3">
+                                                            <img src="./Recursos/Imagenes/credit-card-gaf31072cf_640.png"
+                                                                class="img-rounded w-100" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-md-12 pad-adjust">
+                                                            <input type="text" class="form-control"
+                                                                placeholder="Nombre del titular de la tarjeta"
+                                                                required />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger"
+                                                    data-bs-dismiss="modal">Cancelar</button>
+                                                <button type="submit" class="btn btn-warning btn-block">Confirmar
+                                                    Pago</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card p-2 border border-5">
+                        <div class="card-header">
+                            <h5 class="my-0 font-weight-normal text-center">Pro</h5>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title text-center">10€<small
+                                    class="text-muted">/mes</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Clases: Martes y Jueves</li>
+                                <li>Instrumentos disponibles: Piano y Guitarra</li>
+                                <li>2h de clase</li>
+                                <li>Logo de suscripción premium</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Comprar
                             </button>
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                                 aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="button" class="btn btn-primary">Confirmar Pago</button>
                                         </div>
                                     </div>
                                 </div>
@@ -237,74 +305,29 @@
                     </div>
                     <div class="card p-2 border border-5">
                         <div class="card-header">
-                            <h5 class="my-0 font-weight-normal">Principiante</h5>
+                            <h5 class="my-0 font-weight-normal text-center">Master</h5>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">10€<small class="text-muted">/mes</small></h1>
+                            <h1 class="card-title pricing-card-title text-center">15€<small
+                                    class="text-muted">/mes</small></h1>
                             <ul class="list-unstyled mt-3 mb-4">
-                                <li>1 día de clase a elegir</li>
-                                <li>Instrumentos disponibles: piano y guitarra</li>
-                                <li>2h de clase</li>
-                                <li>1 púa para guitarra gratis</li>
+                                <li>3 días de clase a elegir</li>
+                                <li>Acceso a todos nuestors Instrumentos</li>
+                                <li>2.5h de clase</li>
+                                <li>Saludo especial de un profesor</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">
-                                Sing Up Free
+                                Comprar
                             </button>
                             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                                 aria-hidden="true">
                                 <div class="modal-dialog">
                                     <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
                                         <div class="modal-footer">
                                             <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card p-2 border border-5">
-                        <div class="card-header">
-                            <h5 class="my-0 font-weight-normal">Principiante</h5>
-                        </div>
-                        <div class="card-body">
-                            <h1 class="card-title pricing-card-title">10€<small class="text-muted">/mes</small></h1>
-                            <ul class="list-unstyled mt-3 mb-4">
-                                <li>1 día de clase a elegir</li>
-                                <li>Instrumentos disponibles: piano y guitarra</li>
-                                <li>2h de clase</li>
-                                <li>1 púa para guitarra gratis</li>
-                            </ul>
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Sing Up Free
-                            </button>
-                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                                aria-hidden="true">
-                                <div class="modal-dialog">
-                                    <div class="modal-content">
-                                        <div class="modal-header">
-                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                aria-label="Close"></button>
-                                        </div>
-                                        <div class="modal-body">
-                                            ...
-                                        </div>
-                                        <div class="modal-footer">
-                                            <button type="button" class="btn btn-secondary"
-                                                data-bs-dismiss="modal">Close</button>
-                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                                data-bs-dismiss="modal">Cancelar</button>
+                                            <button type="button" class="btn btn-primary">Confirmar Pago</button>
                                         </div>
                                     </div>
                                 </div>
@@ -315,7 +338,7 @@
             </div>
         </div>
         <!--Contacto-->
-        <div class="contents d-block mt-5">
+        <div class="contents d-block mt-5" id="contacto">
             <div class="container-fluid">
                 <header class="mb-5">
                     <h2 class="text-center text-uppercase text-secondary" id="cotacto">Contacto</h2>
@@ -358,7 +381,8 @@
         <nav class="container">
             <ul class="row text-center justify-content-center" style="list-style-type: none;">
                 <li class="col-12 col-md-6 col-xl">
-                    <a class="nav-link text-center text-white" href="#">Inicio</a>
+                    <a class="nav-link text-center text-white"
+                        href="https://blog.registrodeimpagadosjudiciales.es/articulos-juridicos/requisitos-legales-pagina-web/">LOPD</a>
                 </li>
                 <li class="col-12 col-md-6 col-xl">
                     <a class="nav-link text-center text-white"

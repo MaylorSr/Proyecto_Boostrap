@@ -88,13 +88,23 @@ main div:nth-child(5){
 main div:nth-child(4){
     margin: 0 auto;
 }
+main div:nth-child(4) > div > .card-group{
+    background-color: #828f70;
+}
 .card-group > .card{
     margin: 15px;
     transform: none;
 }
 
-
 label {
     font-size: 15pt;
     color: white;
 }
+#exampleModal{
+    width: 100%;
+}
+
+.credit-card-div  span { padding-top:10px; }
+.credit-card-div img { padding-top:10px; }
+.credit-card-div .small-font { font-size:12px; }
+.credit-card-div .pad-adjust { padding-top:10px; }
