@@ -113,3 +113,7 @@ label {
 .credit-card-div img { padding-top:10px; }
 .credit-card-div .small-font { font-size:12px; }
 .credit-card-div .pad-adjust { padding-top:10px; }
+
+.footer ul{
+    list-style-type: none;
+}
