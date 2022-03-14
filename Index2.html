@@ -22,6 +22,9 @@
                 <a class="navbar-brand" href="#">
                     <img src="./Recursos/Imagenes/Logo.webp" alt="Logo" style="width:70px;" class="rounded-circle">
                 </a>
+                <div>
+                    <h3 class="text-white">Classic Music School</h3>
+                </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#collapsibleNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -98,43 +101,36 @@
         <!--¿Quiénes somos?-->
         <div class="contents d-block mt-5">
             <div class="container-fluid">
-                <header class="mb-5">
+                <header>
                     <h2 class="text-center text-uppercase text-secondary" id="quienessomos">¿Quiénes Somos?</h2>
                 </header>
             </div>
-            <div class="card-group">
-                <div class="card p-2 border border-5">
-                    <div class="card-body">
-                        <h3 class="card-title"> SOBRE NOSOTROS</h3>
-                        <hr>
-                        <img src="Recursos/Imagenes/Clave_de_Sol_y_notas_en_Pentagrama-1.jpg" alt="Pentagrama"
-                            width="100%">
-                        <p class="card-text">Classic Music School es una empresa creada para que los jóvenes se adentren
-                            dentor de la música clásica para que conozcan la historia de la música y se adentren a un
-                            mundo nuevo dónde todo seguramente les va a asombrar</p>
+            <div class="container px-4 py-5">
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="feature col">
+                        <h2 class="text-white">Sobre Nosotros</h2>
+                        <hr class="text-white">
+                        <p class="text-white">Classic Music School es una empresa creada para que los jóvenes se
+                            adentren dentor de la
+                            música clásica para que conozcan la historia de la música y se adentren a un mundo nuevo
+                            dónde todo seguramente les va a asombrar.</p>
                     </div>
-                </div>
-                <div class="card p-2 border border-5">
-                    <div class="card-body">
-                        <h3 class="card-title">OBJETIVOS</h3>
-                        <hr>
-                        <img src="Recursos/Imagenes/Objetivos.jpg" alt="Ejemplo de clase de música" width="100%">
-                        <br><br>
-                        <p class="card-text">Dentro de Classic Music School queremos que nuestros alumnos se adentren
-                            dentro del mundo de la música clásica y conozcan su historia, además de aprender cómo tocar
-                            un instrumento o simplemente dirigir tu propia orquesta.</p>
+                    <div class="feature col">
+                        <h2 class="text-white">Objetivos</h2>
+                        <hr class="text-white">
+                        <p class="text-white">Dentro de Classic Music School queremos que nuestros alumnos se adentren
+                            dentro del mundo de
+                            la música clásica y conozcan su historia, además de aprender cómo tocar un instrumento o
+                            simplemente dirigir tu propia orquesta.</p>
                     </div>
-                </div>
-                <div class="card p-2 border border-5">
-                    <div class="card-body">
-                        <h3 class="card-title">VISIÓN</h3>
-                        <hr>
-                        <img src="./Recursos/Imagenes/vision.jpg" alt="Vision" width="100%">
-                        <br><br>
-                        <p class="card-text">Desde Classic Music School queremos devolver a la música clásica su época
-                            de gloria. Hoy en día muchos jóvenes escuchan sobre todo reguetón y nuevas modas que van
-                            surgiendo, pero con este curso descubrirán un tipo de música nuevo que enamorará tanto sus
-                            oídos como su corazón.</p>
+                    <div class="feature col">
+                        <h2 class="text-white">Visión</h2>
+                        <hr class="text-white">
+                        <p class="text-white">Desde Classic Music School queremos devolver a la música clásica su época
+                            de gloria. Hoy en
+                            día muchos jóvenes escuchan sobre todo reguetón y nuevas modas que van surgiendo, pero con
+                            este curso descubrirán un tipo de música nuevo que enamorará tanto sus oídos como su
+                            corazón.</p>
                     </div>
                 </div>
             </div>
@@ -200,7 +196,7 @@
                 <header class="mb-5">
                     <h2 class="text-center text-uppercase text-secondary" id="precio">Precios</h2>
                 </header>
-                <div class="card-group" style="width: 50%; margin: 0 auto;">
+                <div class="card-group">
                     <div class="card p-2 border border-5">
                         <div class="card-header">
                             <h5 class="my-0 font-weight-normal">Principiante</h5>
@@ -213,8 +209,30 @@
                                 <li>2h de clase</li>
                                 <li>1 púa para guitarra gratis</li>
                             </ul>
-                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for
-                                free</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Sing Up Free
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="card p-2 border border-5">
@@ -229,8 +247,30 @@
                                 <li>2h de clase</li>
                                 <li>1 púa para guitarra gratis</li>
                             </ul>
-                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for
-                                free</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Sing Up Free
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="card p-2 border border-5">
@@ -245,8 +285,30 @@
                                 <li>2h de clase</li>
                                 <li>1 púa para guitarra gratis</li>
                             </ul>
-                            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for
-                                free</button>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Sing Up Free
+                            </button>
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            ...
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Save changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
