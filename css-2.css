@@ -16,6 +16,11 @@ header .nav-link:hover{
 div:nth-child(3) .card:hover{
     transform: scale(0.95, 0.95);
 }
+div:nth-child(3) .card div:last-of-type .container {
+    text-align: center;
+    width: 100%;
+}
+
 .mt-0 {
     margin-top: 80px !important;
 }
@@ -66,9 +71,10 @@ div:nth-child(3) .card:hover{
     8px 8px 3px white;;
 }
 }
-main div:nth-child(4){
+main div:nth-child(5){
     width: 100%;
 }
+
 @media screen and (min-width: 1080px) {
     main div:nth-child(4){
         width: 50%;
@@ -103,7 +109,6 @@ label {
 #exampleModal{
     width: 100%;
 }
-
 .credit-card-div  span { padding-top:10px; }
 .credit-card-div img { padding-top:10px; }
 .credit-card-div .small-font { font-size:12px; }
