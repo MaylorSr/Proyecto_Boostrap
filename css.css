@@ -31,7 +31,7 @@ div:nth-child(3) .card div:last-of-type .container {
 }
 
 .container-fluid header h2{
-    font-family: 'League';
+    font-family: 'League', cursive;
     font-size: 45px;
 }
 
