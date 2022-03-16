@@ -107,10 +107,6 @@ main div:nth-child(4) > div > .card-group{
     transform: none;
 }
 
-label {
-    font-size: 15pt;
-    color: white;
-}
 #exampleModal{
     width: 100%;
 }
@@ -125,4 +121,9 @@ label {
 
 .letraPrecio {
     font-family: 'Artifika', sans-serif;
+}
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: none;
 }
