@@ -10,12 +10,6 @@ header .nav-link:hover{
     background-color: brown;
     border-radius: 15px;
 }
-
-/*
-.carousel-caption{
-    position: absolute;
-}
-*/
 div:nth-child(3) .card{
     transition: 0.5s;
 }
@@ -23,20 +17,6 @@ div:nth-child(3) .card{
 div:nth-child(3) .card:hover{
     transform: scale(0.95, 0.95);
 }
-
-/*
-div:nth-child(3) .card div:last-of-type .container {
-    text-align: center;
-    width: 100%;
-}
-*/
-
-/*
-.mt-0 {
-    margin-top: 80px !important;
-}
-*/
-
 .container-fluid header h2{
     font-family: 'League', cursive;
     font-size: 45px;
@@ -89,22 +69,6 @@ main div:nth-child(5){
         margin: 0 auto;
     }
 }
-
-/*
-main div:nth-child(5){
-    width: 100%;
-}
-
-main div:nth-child(4) > div > .card-group{
-    background-color: #828f70;
-}
-
-.card-group > .card{
-    margin: 15px;
-    transform: none;
-}
-*/
-
 .credit-card-div  span { padding-top:10px; }
 .credit-card-div img { padding-top:10px; }
 .credit-card-div .small-font { font-size:12px; }
